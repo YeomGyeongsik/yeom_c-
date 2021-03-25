@@ -1,0 +1,30 @@
+#include <iostream>
+#include <string>
+
+    node* node1 = new node;
+    node1->name = "염경식";
+    node1->id = 202131413;
+    node1->allowance = 250000;
+
+    head = node1;
+
+    node* node2 = new node;
+    node2->name = "신동훈";
+    node2->id = 202131410;
+    node2->allowance = 300000;
+
+    node1->p_next = node2;
+
+    node* node3 = new node;
+    node3->name = "홍승본";
+    node3->id = 202131467;
+    node3->allowance = 400000;
+
+    node2->p_next = node3;
+
+    node* node4 = new node;
+    node4->name = "박도윤";
+    node4->id = 202131460;
+    node4->allowance = 300000;
+
+    
