@@ -17,9 +17,9 @@ void Car::set_power()
 void Car::set_speed(bool a) {
 	if (!power) return;
 	if (a)
-		speed += 1000;
+		speed += 650;
 	else
-		speed -= 10;
+		speed -= 100;
 	return;
 }
 double Car::get_speed()const
